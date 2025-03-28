@@ -2,7 +2,9 @@
   "name": "@dynamic-form/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dynamic-form-builder:serve": "nx run dynamic-form-builder:serve --host 0.0.0.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
